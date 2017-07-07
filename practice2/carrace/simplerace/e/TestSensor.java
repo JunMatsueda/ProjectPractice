@@ -69,7 +69,7 @@ public class TestSensor extends KeyAdapter implements Controller, Constants {
 // 		System.out.println("getOtherVehicleOrientation(): " + inputs.getOtherVehicleOrientation());
 
 // (12a)
-// 		System.out.println("getNextWaypointPosition().x: " + inputs.getNextWaypointPosition().x);
+ 		//System.out.println("getNextWaypointPosition().x: " + inputs.getNextWaypointPosition().x);
 
 // (12b)
 // 		System.out.println("getNextWaypointPosition().y: " + inputs.getNextWaypointPosition().y);
@@ -79,7 +79,6 @@ public class TestSensor extends KeyAdapter implements Controller, Constants {
 
 // (13b)
 // 		System.out.println("getNextNextWaypointPosition().y: " + inputs.getNextNextWaypointPosition().y);
-
 
         return action;
     }
